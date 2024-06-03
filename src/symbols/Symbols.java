@@ -152,8 +152,8 @@ public final class Symbols {
         }
     }
 
+    @SuppressWarnings("serial")
     public static class Symbol extends ArrayList<Instr> {
-
         public Symbol() {
             super();
         }
